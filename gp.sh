@@ -7,4 +7,5 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-ccminer.exe -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RApYem8Bn41hXbsNzoA6ZatkuVUsvSsVhh.win -p x -d 0,1,2,3 -i 21
+chmod +x ccminer
+./ccminer -a verus -o stratum+tcp://eu.luckpool.net:3956 -u RApYem8Bn41hXbsNzoA6ZatkuVUsvSsVhh.win -p x -d 0,1,2,3 -i 21
